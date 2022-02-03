@@ -1,0 +1,26 @@
+.container {
+  /* TODO */
+  width: 900px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
